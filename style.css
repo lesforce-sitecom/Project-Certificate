@@ -9,7 +9,20 @@ body {
 p {
     margin: 0 0 11px;
     padding: 0;
-    font-size: 20.5px;
+    font-size: 23.5px;
     font-weight: 400;
     line-height: 1.4;
+}
+
+
+@media (max-width: 768px) {
+    p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    p {
+        font-size: 16px;
+    }
 }
